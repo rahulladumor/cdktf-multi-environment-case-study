@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build outputs
+bin/
+dist/
+build/
+*.js
+*.d.ts
+!diagrams/*.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# IaC specific
+.pulumi/
+cdktf.out/
+cdk.out/
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Secrets
+.env
+*.pem
+credentials
+
+# Logs
+*.log
+
+# Generated
+diagrams/*.png
+!docs/*.png
